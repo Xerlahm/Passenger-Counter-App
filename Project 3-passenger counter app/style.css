@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#bg-img{
+    height: 28.3em;
+    width: 53.4em;
+    background-size: contain;
+    margin: -2em;
+    filter: brightness(75%) blur(2.2px);
+}
+#content{
+    margin-top: -24em; 
+    position: absolute;
+}
+h1{
+    color: blue;
+    margin-top: 3em;
+    margin-bottom: 10px;
+    margin-left: 9em;
+    font-size: 2em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+#Count{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 3.5em;
+}
+button{
+    padding: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-left: 22em;
+}
+#add{
+    color: green;
+    margin-right: 2em;
+    border-color: green;
+}
+#add:hover{
+    color:white;
+    background-color: green;
+}
+
+#remove{
+    color: red;
+    margin-left: 2em;
+    border-color: red;    
+}
+#remove:hover{
+    color:white;
+    background-color: red;
+}
+
